@@ -73,28 +73,28 @@ entradaDeDados.question('Digite o nome do aluno: ', function(nome){
             let nota1 = valor1
 
             if(nota1 == '' || Number(nota1) < 0 || Number(nota1) > 10){
-                console.log(MESSAGE_ERRO)
+                console.log(MESSAGE_ERROR_EMPTY)
                 entradaDeDados.close()
             }else{
                 //Entrada de dados nota 2
                 entradaDeDados.question('Digite a nota 2: ', function(valor2){
                     let nota2 = valor2
                     if(nota2 == '' || Number(nota2) < 0 || Number(nota2) > 10){
-                        console.log(MESSAGE_ERRO)
+                        console.log(MESSAGE_ERROR_EMPTY)
                         entradaDeDados.close()
                     }else{
                         //Entrada de dados nota 3
                         entradaDeDados.question('Digite a nota 3: ', function(valor3){
                             let nota3 = valor3
                             if(nota3 == '' || Number(nota3) < 0 || Number(nota3) > 10){
-                                console.log(MESSAGE_ERRO)
+                                console.log(MESSAGE_ERROR_EMPTY)
                                 entradaDeDados.close()
                             }else{
                                 //Entrada de dados nota 4
                                 entradaDeDados.question('Digite a nota 4: ', function(valor4){
                                     let nota4 = valor4
                                     if(nota4 == '' || Number(nota4) < 0 || Number(nota4) > 10){
-                                        console.log(MESSAGE_ERRO)
+                                        console.log(MESSAGE_ERROR_EMPTY)
                                         entradaDeDados.close()
                                     }else{
 
